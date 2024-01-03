@@ -111,7 +111,6 @@ int main()
     std::cin >> employeesCnt;
 
     Employee* employees = new Employee[employeesCnt];
-
     std::ofstream file(fileName, std::ios::binary);
 
     std::cout << "enter employees info" << std::endl;
