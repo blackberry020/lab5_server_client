@@ -41,6 +41,7 @@ int main()
 	bool read;
 
 	while (true) {
+		std::cin.clear();
 		std::cin >> query.command >> query.number;
 		if (query.command == 'r' || query.command == 'm') {
 			WriteFile(
